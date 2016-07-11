@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "id": "569da7e0c8269c7cd700d0fd",
+      "attributes": {
+        "name": "A.P.C.",
+        "logo": "https://s3-ap-southeast-2.amazonaws.com/booodl-retail/media/brands/logos/missing-logo.png"
+      }
+    },
+    {
+      "id": "5678d9c9c8269c46d424c683",
+      "attributes": {
+        "name": "Acne"
+      }
+    },
+    {
+      "id": "569da87ec8269c7cd700d5fa",
+      "attributes": {
+        "name": "Comme Play Wallets"
+      }
+    },
+    {
+      "id": "56284125c8269c5e8f430df9",
+      "attributes": {
+        "name": "Comme des Garcons"
+      }
+    },
+    {
+      "type": "brands",
+      "id": "56049223c8269c3ad6095fd6",
+      "attributes": {
+        "name": "Converse"
+      }
+    },
+    {
+      "id": "569da8b2c8269c7cd700d790",
+      "attributes": {
+        "name": "Saturdays NYC"
+      }
+    },
+    {
+      "id": "5604c3c0c8269c3ad6096041",
+      "attributes": {
+        "name": "Saturdays Surf NYC"
+      }
+    },
+    {
+      "id": "5678da08c8269c46d424c78e",
+      "attributes": {
+        "name": "kenzo"
+      }
+    }
+  ]
+}

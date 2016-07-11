@@ -1,0 +1,66 @@
+{
+  "data": {
+    "type": "stores",
+    "id": "a23a770a-4636-4966-8f71-56f783375b32",
+    "attributes": {
+      "name": "Incu Galeries Mens",
+      "address": "RG19-20, The Galeries 500 George Street",
+      "city": "Sydney",
+      "state": "NSW",
+      "postcode": "2000",
+      "location": {
+        "coordinates": [
+          151.20760474999997,
+          -33.87249285000001
+        ],
+        "type": "Point"
+      },
+      "phone": "+61 2 9283 7622",
+      "openingHours": {
+        "fri": {
+          "close": "18:00",
+          "open": "10:00"
+        },
+        "mon": {
+          "close": "18:00",
+          "open": "10:00"
+        },
+        "sat": {
+          "close": "17:00",
+          "open": "11:00"
+        },
+        "sun": {
+          "close": "17:00",
+          "open": "11:00"
+        },
+        "thu": {
+          "close": "21:00",
+          "open": "10:00"
+        },
+        "tue": {
+          "close": "18:00",
+          "open": "10:00"
+        },
+        "wed": {
+          "close": "18:00",
+          "open": "10:00"
+        }
+      },
+      "url": "https://www.incu.com/pages/sydney-city-mens/",
+      "photos": [
+        "https://s3-ap-southeast-2.amazonaws.com/booodl-retail/media/stores/a23a770a-4636-4966-8f71-56f783375b32/location_two_slide_1.jpg"
+      ],
+      "range": "medium",
+      "topLevelCategory": "fashion",
+      "creditCard": [
+        "Visa",
+        "Mastercard"
+      ],
+      "transport": true,
+      "parking": false,
+      "handicapAccess": true,
+      "chainStore": true,
+      "slug": "/nsw/sydney/incu-galeries-mens"
+    }
+  }
+}

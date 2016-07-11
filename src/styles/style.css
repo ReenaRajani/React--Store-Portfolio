@@ -1,0 +1,221 @@
+.body{
+  width:90%;
+
+}
+.menu-bar{
+  /*background: #00EDE9;*/
+  background-color: #ECE9E9;
+  padding: 1em;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  align-content: center;
+  -webkit-align-content: center;
+}
+
+.title {
+  color: #00EDE9;
+  margin: 0 auto;
+  font-size: 2em;
+  align-self: center;
+  -webkit-align-self: center;
+}
+.menu {
+  color: black;
+  font-size: 1em;
+  align-self: flex-end;
+}
+
+.store-image{
+  padding: 2em;
+  width: 50%;
+  height: 40%;
+  margin: 0 auto;
+
+}
+.store-image .img-responsive{
+  width: 100%;
+  height:auto;
+  margin: 0 auto;
+}
+.store-information-container{
+  background-color: #00EDE9;
+  text-align: center;
+  line-height: 2em;
+  font-weight: bold;
+  padding: 0.5em;
+}
+.store-name{
+  font-size: 3em;
+  color: #3E3C3C;
+}
+
+.store-suburb {
+  font-size: 1em;
+  font-family: sans-serif;
+}
+.range-category .range{
+  color: rgb(255, 78, 55);
+  padding-right: 1em;
+}
+.category{
+  padding-left: 1em;
+  text-transform: uppercase;
+}
+.timing-distance{
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: center;
+  justify-content: center;
+}
+.store-location{
+  padding-left: 1em;
+}
+.address-info {
+  color: white;
+}
+.contact-button {
+    display:inline-block;
+    color: #fff;
+    border:1px solid #CCC;
+    background:rgb(255, 78, 55);
+    cursor:pointer;
+    vertical-align:middle;
+    width: 15em;
+    padding: 0.2em;
+    text-align: center;
+    margin-right: 1.5em;
+    font-weight:300;
+    letter-spacing: 2px;
+  }
+
+.contact-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.store-feature-container {
+  background-color: #B3AFAF;
+  width:100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.icon-box {
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  padding: 0.4em;
+  box-shadow: 0 0 4px rbga(0,0,0,0.1);
+  background-color: #fff;
+  margin: 1.5em;
+}
+.icon-name {
+  margin-top: 0.5em;
+  word-wrap: break-word;
+  padding: 0.5em;
+  width: 82%;
+}
+.store-brands-container{
+  background-color: grey;
+  border-bottom: 1px solid #A7A7B1;
+  padding-bottom: 2em;
+}
+.store-brands-container > .title {
+  color: #443E3E;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  font-size: 1.4em;
+}
+
+.brands-box {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 90%;
+
+}
+.brand-box {
+  text-align: center;
+  min-width: 5em;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: white;
+  padding: 10px;
+  margin: 0.2em;
+}
+
+.brand-name {
+  text-align: center; 
+}
+
+.more {
+  color: red;
+  cursor:pointer;
+  padding: 5px;
+  text-align: center;
+}
+.store-categories-container{
+  background-color: grey;
+  border-bottom: 1px solid #A7A7B1;
+  padding-bottom: 2em;
+}
+
+.store-categories-container > .title {
+  color: #443E3E;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  font-size: 1.4em;
+}
+
+.categories-box {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 90%;
+
+}
+.category-box {
+  text-align: center;
+  min-width: 5em;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: white;
+  padding: 10px;
+  margin: 0.2em;
+}
+
+hr{
+  color: grey;
+  padding-top: 2em;
+}
