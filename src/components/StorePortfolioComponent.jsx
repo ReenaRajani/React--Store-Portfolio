@@ -16,9 +16,7 @@ var StorePortfolio = React.createClass({
     return (
       <div className ="store-profile-container">
         <div className="store-image-container" />
-        <div className= "store-information-container">
           <StoreProfileWidget storeData={storeData.data}/>
-        </div>
         <StoreFeatureWidget storeAttributesData={storeData.data.attributes}/>
         <StoreBrandWidget storeBrandData={brandsData.data}/>
         <StoreCategoryWidget storeCategoryData={categoriesData.data}/>

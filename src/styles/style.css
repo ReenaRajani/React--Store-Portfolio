@@ -1,3 +1,8 @@
+:root {
+  --main-bg-color: #51D2DE;
+  --button-bg-color: #F96540;
+}
+
 .body{
   width:90%;
 
@@ -15,7 +20,7 @@
 }
 
 .title {
-  color: #00EDE9;
+  color: var(--main-bg-color);
   margin: 0 auto;
   font-size: 2em;
   align-self: center;
@@ -40,15 +45,16 @@
   margin: 0 auto;
 }
 .store-information-container{
-  background-color: #00EDE9;
+  background-color: var(--main-bg-color);
   text-align: center;
   line-height: 2em;
   font-weight: bold;
-  padding: 0.5em;
+  padding: 0.5em 0.5em;
 }
 .store-name{
   font-size: 3em;
   color: #3E3C3C;
+  line-height: 1em;
 }
 
 .store-suburb {
@@ -61,7 +67,7 @@
 }
 .category{
   padding-left: 1em;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .timing-distance{
   color: white;
@@ -80,13 +86,13 @@
     display:inline-block;
     color: #fff;
     border:1px solid #CCC;
-    background:rgb(255, 78, 55);
+    background:var(--button-bg-color);
     cursor:pointer;
     vertical-align:middle;
     width: 15em;
     padding: 0.2em;
     text-align: center;
-    margin-right: 1.5em;
+    margin: 0em 1.5em 0.5em 0em;
     font-weight:300;
     letter-spacing: 2px;
   }
@@ -97,7 +103,7 @@
 }
 
 .store-feature-container {
-  background-color: #B3AFAF;
+  background-color: #F1F1F1;
   width:100%;
   display: -webkit-flex;
   display: flex;
@@ -124,12 +130,12 @@
   padding: 0.5em;
   width: 82%;
 }
-.store-brands-container{
+.store-brands-container, .store-categories-container{
   background-color: grey;
   border-bottom: 1px solid #A7A7B1;
   padding-bottom: 2em;
 }
-.store-brands-container > .title {
+.store-brands-container > .title, .store-categories-container > .title {
   color: #443E3E;
   text-align: center;
   padding-top: 1em;
@@ -137,12 +143,11 @@
   font-size: 1.4em;
 }
 
-.brands-box {
+.brands-box, .categories-box {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-direction: row;
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
   -webkit-align-items: center;
@@ -154,7 +159,7 @@
   width: 90%;
 
 }
-.brand-box {
+.brand-box, .category-box {
   text-align: center;
   min-width: 5em;
   border-radius: 5px;
@@ -173,49 +178,4 @@
   cursor:pointer;
   padding: 5px;
   text-align: center;
-}
-.store-categories-container{
-  background-color: grey;
-  border-bottom: 1px solid #A7A7B1;
-  padding-bottom: 2em;
-}
-
-.store-categories-container > .title {
-  color: #443E3E;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
-  font-size: 1.4em;
-}
-
-.categories-box {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-direction: row;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  width: 90%;
-
-}
-.category-box {
-  text-align: center;
-  min-width: 5em;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  background-color: white;
-  padding: 10px;
-  margin: 0.2em;
-}
-
-hr{
-  color: grey;
-  padding-top: 2em;
 }

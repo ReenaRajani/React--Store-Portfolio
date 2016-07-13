@@ -15,6 +15,7 @@ var StoreProfileWidget = React.createClass({
 
   render: function(){
     var storeAttributes = this.props.storeData['attributes'];
+    
     return (
       <div className="store-information-container">
         <div className ='store-image'>
