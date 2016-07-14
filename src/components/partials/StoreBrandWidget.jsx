@@ -50,6 +50,7 @@ var StoreBrandWidget = React.createClass({
    var brands = this.props.storeBrandData;
    if(brands.length < 6){
       return(
+        
         <div className= 'brands-box'>
         {
           brands.map(function(brand){
